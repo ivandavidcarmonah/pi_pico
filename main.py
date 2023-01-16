@@ -8,7 +8,6 @@ from machine import I2C, Pin
 from esp8266_i2c_lcd import I2cLcd
 import _thread
 
-sin = _thread.allocate_lock()
 d = dht.DHT11(machine.Pin(4))
 
 # The PCF8574 has a jumper selectable address: 0x20 - 0x27
