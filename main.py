@@ -6,7 +6,7 @@ global hum
 from time import sleep_ms, ticks_ms
 from machine import I2C, Pin
 from esp8266_i2c_lcd import I2cLcd
-import _thread
+
 
 d = dht.DHT11(machine.Pin(4))
 
